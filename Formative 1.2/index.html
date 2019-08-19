@@ -15,17 +15,20 @@
 </head>
 
 <body>
-  <i id="menu" class="fas fa-bars"></i>
+  <header class="nav">
+    <i id="menu-open" class="nav__icon fas fa-bars"></i>
+    <i id="menu-close" class="nav__icon fas fa-window-close hidden"></i>
 
-  <nav>
-    <i id="close" class="fas fa-window-close"></i>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Menu</a></li>
-      <li><a href="#">Book Now</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+    <nav id="nav-mobile" class="nav__mobile hidden">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Book Now</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
 
 
   <div class="menu">
@@ -57,6 +60,15 @@
       </p>
     </div>
   </div>
+
+  <!-- jquery cdn source -->
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+  <!-- our javascript file -->
+  <script src="js/script.js"></script>
 
 </body>
 

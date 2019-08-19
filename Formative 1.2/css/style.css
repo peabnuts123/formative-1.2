@@ -5,7 +5,12 @@
   list-style: none;
   text-decoration: none; }
 
-nav ul li {
+.nav {
+  padding: 8px 12px;
+  background: orange;
+  color: white; }
+
+.nav__mobile ul li {
   list-style: none;
   display: block;
   background: orange;
@@ -16,9 +21,15 @@ nav ul li {
   padding: 5px 0px;
   margin: 15px auto; }
 
-nav ul a {
+.nav__mobile ul a {
   text-decoration: none;
   color: white; }
+
+.nav__icon {
+  font-size: 24px; }
+
+.hidden {
+  display: none !important; }
 
 .clearFix {
   clear: both;
