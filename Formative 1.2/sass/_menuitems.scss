@@ -1,14 +1,22 @@
-.menu_item{
-  width: 80%;
-  margin: 2%;
-  font-size: 30px;
-  color: black;
+.menu {
+  padding: 12px;
+}
+
+.menu__title {
+  text-align: center;
+  color: $backColor;
+}
+
+.menu__item {
+  clear: both;
+}
+
+.menu__item-title {
+  font-weight: bold;
   float: left;
 }
-.menu_price{
-  float: right;
-  width: 10%;
-  margin: 2%;
-  font-size: 30px;
 
+.menu__item-price {
+  font-weight: bold;
+  float: right;
 }
