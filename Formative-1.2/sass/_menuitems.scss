@@ -1,0 +1,24 @@
+.menu {
+  padding: 12px;
+  margin: 2px;
+}
+
+.menu__title {
+  text-align: center;
+  color: $backColor;
+  font-size: 60px;
+}
+
+.menu__item {
+  clear: both;
+}
+
+.menu__item-title {
+  font-weight: bold;
+  float: left;
+}
+
+.menu__item-price {
+  font-weight: bold;
+  float: right;
+}

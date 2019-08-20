@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <title>Bebemos</title>
+</head>
+
+<body>
+  <header class="nav">
+    <i id="menu-open" class="nav__icon fas fa-bars"></i>
+    <i id="menu-close" class="nav__icon fas fa-window-close hidden"></i>
+
+    <nav id="nav-mobile" class="nav__mobile hidden">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Book Now</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="banner">
+        <img class="image_banner" src="images/image_banner.jpg" alt="Polenta">
+        <img class="image_logo" src="images/logo1.png" alt="logo">
+  </div>
+
+
+  <div class="menu">
+
+    <div>
+      <h1 class="menu__title">Menu</h1>
+    </div>
+
+    <div class="menu__item">
+      <div>
+        <h2 class="menu__item-title">Pão de queijo</h2>
+        <span class="menu__item-price">$9</span>
+      </div>
+
+      <br><br>
+
+      <p>Baked Brazilian cheese puffs (6) with chili mayo (v, g/f)</p>
+    </div>
+
+    <div class="menu__item">
+      <div>
+        <h2 class="menu__item-title">Espétinho</h2>
+        <span class="menu__item-price">$12</span>
+      </div>
+
+      <br><br>
+
+      <p>Chargrilled halloumi & green pepper skewers, with chimichurri sauce (v)
+      </p>
+
+
+   <div class="menu__item">
+     <div>
+       <h2 class="menu__item-title">Fried Chicken</h2>
+       <span class="menu__item-price">$12</span>
+     </div>
+
+    <br><br>
+
+      <p>Piri-Piri marinated chicken seasoned in Tempero Baiano, with smoky stonefruit BBQ sauce (gf)
+     </p>
+
+
+
+<div class="menu__item">
+  <div>
+    <h2 class="menu__item-title">Bolinhos de Beterraba</h2>
+    <span class="menu__item-price">$12</span>
+  </div>
+
+  <br><br>
+
+  <p>Beetroot, chickpea & sesame seed fritters, with herbed cheese sauce (vg)
+  </p>
+</div>
+</div>
+<div class="book__form">
+  <h2 class="book__form-title">Book Now</h2>
+ <form action="action_page.php">
+
+   <label for="book__form-first_name">First Name</label>
+   <input type="text" id="book__form-first_name" name="firstname" placeholder="Your name..">
+
+   <label for="book__form-last_name">Last Name</label>
+   <input type="text" id="book__form-last_name" name="lastname" placeholder="Your last name..">
+
+   <label for="book__form-day">What day would you like to book?</label>
+   <select id="book__day" name="What day would you like to book?">
+     <option value="monday">Monday</option>
+     <option value="tuesday">Tuesday</option>
+     <option value="wednesday">Wednesday</option>
+     <option value="thursday">Thursday</option>
+     <option value="friday">Friday</option>
+     <option value="Saturday">Saturday</option>
+     <option value="Sunday">Sunday</option>
+   </select>
+   <label for="book__form-time">What day time you like to book?</label>
+   <select id="book__form-time" name="What time would you like to book?">
+     <option value="11am">11am</option>
+     <option value="12pm">12pm</option>
+     <option value="1pm">1pm</option>
+     <option value="2pm">2pm</option>
+     <option value="5pm">5pm</option>
+     <option value="6pm">6pm</option>
+     <option value="7pm">7pm</option>
+     <option value="8pm">8pm</option>
+   </select>
+
+   <label for="book__form-comments">Subject</label>
+   <textarea id="book__form-comments" name="comments" placeholder="Any questions or comments?.." style="height:200px"></textarea>
+
+   <input type="submit" value="Submit">
+
+ </form>
+</div>
+
+
+  <!-- jquery cdn source -->
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+  <!-- our javascript file -->
+  <script src="js/script.js"></script>
+
+</body>
+
+
+</html>
