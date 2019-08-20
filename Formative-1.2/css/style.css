@@ -41,37 +41,48 @@
     display: block;
     margin-bottom: 30px; }
   .col-1 {
-    width: 8.33333%;
+    width: 7.5%;
+    margin-right: 0.83333%;
     float: left; }
   .col-2 {
-    width: 16.66667%;
+    width: 15%;
+    margin-right: 1.66667%;
     float: left; }
   .col-3 {
-    width: 25%;
+    width: 22.5%;
+    margin-right: 2.5%;
     float: left; }
   .col-4 {
-    width: 33.33333%;
+    width: 30%;
+    margin-right: 3.33333%;
     float: left; }
   .col-5 {
-    width: 41.66667%;
+    width: 37.5%;
+    margin-right: 4.16667%;
     float: left; }
   .col-6 {
-    width: 50%;
+    width: 45%;
+    margin-right: 5%;
     float: left; }
   .col-7 {
-    width: 58.33333%;
+    width: 52.5%;
+    margin-right: 5.83333%;
     float: left; }
   .col-8 {
-    width: 66.66667%;
+    width: 60%;
+    margin-right: 6.66667%;
     float: left; }
   .col-9 {
-    width: 75%;
+    width: 67.5%;
+    margin-right: 7.5%;
     float: left; }
   .col-10 {
-    width: 83.33333%;
+    width: 75%;
+    margin-right: 8.33333%;
     float: left; }
   .col-11 {
-    width: 91.66667%;
+    width: 82.5%;
+    margin-right: 9.16667%;
     float: left; } }
 
 .menu {
@@ -134,5 +145,32 @@
 
 .banner__logo {
   width: 400px; }
+
+.footer {
+  background-color: #FD9B22;
+  color: white;
+  text-align: center;
+  padding: 10px; }
+
+.footer__phone-number {
+  font-size: 20px;
+  margin-bottom: 10px; }
+
+.footer__email {
+  font-size: 20px;
+  margin-bottom: 10px; }
+
+.footer__opening-hours {
+  font-size: 15px;
+  margin-bottom: 10px; }
+
+.footer__address {
+  font-size: 15px;
+  margin-bottom: 10px; }
+
+.footer_social-logo {
+  width: 50px;
+  margin-left: 5px;
+  margin-right: 5px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,37 @@
+.footer {
+  background-color: $backColor;
+  color: $fontColor;
+  text-align: center;
+  padding: $padding;
+}
+
+
+.footer__information {
+
+}
+
+.footer__phone-number {
+  font-size: 20px;
+  margin-bottom: $margin;
+}
+
+.footer__email {
+  font-size: 20px;
+  margin-bottom: $margin;
+}
+
+.footer__opening-hours {
+  font-size: 15px;
+  margin-bottom: $margin;
+}
+
+.footer__address {
+  font-size: 15px;
+  margin-bottom: $margin;
+}
+
+.footer_social-logo {
+  width: 50px;
+  margin-left: $margin / 2;
+  margin-right: $margin / 2;
+}

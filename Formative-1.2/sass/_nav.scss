@@ -49,7 +49,8 @@
 
  @for $i from 1 to 12 {
    .col-#{$i}{
-     width: 100% / 12 * $i;
+     width: 90% / 12 * $i;
+     margin-right: 10% / 12 * $i;
      float:left;
    }
  }//end of for loop
