@@ -104,4 +104,23 @@
   left: 50px;
   width: 400px; }
 
+.booking-form {
+  margin-top: 30px; }
+
+.booking-form__title {
+  margin-bottom: 10px; }
+
+.booking-form__field {
+  margin-bottom: 15px; }
+
+.booking-form__label {
+  display: block;
+  margin-bottom: 5px; }
+
+.booking-form__textbox {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid lightgray; }
+
 /*# sourceMappingURL=style.css.map */
