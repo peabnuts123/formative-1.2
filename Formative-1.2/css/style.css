@@ -123,4 +123,11 @@
   border-radius: 3px;
   border: 1px solid lightgray; }
 
+.banner {
+  background-image: url("../images/image_banner.jpg");
+  max-height: 400px; }
+
+.banner__logo {
+  width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
