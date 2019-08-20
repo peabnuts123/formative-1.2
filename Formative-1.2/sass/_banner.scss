@@ -1,8 +1,10 @@
 .banner {
   background-image: url('../images/image_banner.jpg');
-  max-height: 400px
+  height: 400px;
+  padding-top: 100px;
+  text-align: center;
 }
 
 .banner__logo {
-  width: 100%;
+  width: 400px;
 }

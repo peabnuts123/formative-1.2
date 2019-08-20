@@ -1,8 +1,11 @@
 .booking-form {
   margin-top: 30px;
+  border: 20px solid $backColor;
+  padding: 10px 20px;
 }
 
 .booking-form__title {
+  color: $backColor;
   margin-bottom: 10px;
 }
 
